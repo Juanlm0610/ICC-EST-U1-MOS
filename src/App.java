@@ -7,6 +7,9 @@ public class App {
         arregloR = mO.sortBySeleccion(arreglo, true);
         mO.printAr(arreglo);
 
+        arregloR = mO.sortBySeleccion(arreglo, false);
+        mO.printAr(arreglo);
+
     }
 }
 
