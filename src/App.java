@@ -4,7 +4,7 @@ public class App {
         MetodosOrdenamiento mO = new MetodosOrdenamiento();
         int[] arreglo = { 75, 24, 2, 64, 2681, 777, 85 };
         int[] arregloR = {};
-        arregloR = mO.sortBySeleccion(arreglo);
+        arregloR = mO.sortBySeleccion(arreglo, false);
         mO.printAr(arreglo);
 
     }
